@@ -5,7 +5,7 @@ const columns = [
     key: "date",
     sorter: (a, b) => (a.date < b.date ? -1 : a.date === b.date ? 0 : 1),
     sortDirections: ["descend", "ascend"],
-    width: 155,
+    width: 160,
   },
   {
     title: "Позиция",
@@ -23,7 +23,6 @@ const columns = [
     sorter: (a, b) =>
       a.condition < b.condition ? -1 : a.condition === b.condition ? 0 : 1,
     sortDirections: ["descend", "ascend"],
-    width: 200,
   },
   {
     title: "Действие",
@@ -45,7 +44,6 @@ const columns = [
         ? 0
         : 1,
     sortDirections: ["descend", "ascend"],
-    width: 170,
   },
   {
     title: "Значение",
@@ -53,7 +51,7 @@ const columns = [
     key: "value",
     sorter: (a, b) => (a.value < b.value ? -1 : a.value === b.value ? 0 : 1),
     sortDirections: ["descend", "ascend"],
-    width: 120,
+    width: 100,
   },
   {
     title: "Пред. знач.",
@@ -79,7 +77,7 @@ const columns = [
     sorter: (a, b) =>
       a.station < b.station ? -1 : a.station === b.station ? 0 : 1,
     sortDirections: ["descend", "ascend"],
-    width: 90,
+    width: 100,
   },
 ];
 
